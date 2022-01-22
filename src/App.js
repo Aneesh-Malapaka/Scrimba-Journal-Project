@@ -1,11 +1,11 @@
 import React from "react";
 import NavBar from "./Components/NavBar";
 import Cards from "./Components/Cards";
-import data from "./data";
+import Data from "./data";
 import "./style.css";
 
 export default function App() {
-  let cards = data.map((item) => {
+  let cards = Data.map((item) => {
     return <Cards key={item.id} item={item} />;
   });
 
