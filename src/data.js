@@ -1,4 +1,4 @@
-export default [
+var a = [
   {
     id: "1",
     title: "Mount Fuji",
@@ -35,3 +35,5 @@ export default [
     imageUrl: "Geiran.jpg",
   },
 ];
+
+export default a;
